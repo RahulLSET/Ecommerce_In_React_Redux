@@ -19,14 +19,14 @@ function Navbar() {
 
                     <Grid2 container spacing={8} sx={{ display: "flex", fontSize: { xs: "1rem", md: "6rem" } }} >
                         <Grid2 item   size={{ md: 3, lg: 3, xs: 12 }} sx={{ display: "flex", justifyContent: { md: "flex-start", xs: "center" } }}>
-                           <Link to="/" ><Typography className=' ' sx={{ fontSize: "2rem", fontWeight: "600" }} >Sandip..😎</Typography></Link>
+                           <Link to="/" ><Typography className=' ' sx={{ fontSize: "2rem", fontWeight: "600" }} >Kavya Sree Is here..😎</Typography></Link>
                         </Grid2>
                         <Grid2 item size={{ md: 6, lg: 6, xs: 12 }} sx={{}}>
                             <Box sx={{ fontSize: "2rem", display: "flex", justifyContent: "space-around", alignItems: "center", py: 1.2 }}>
                                 <Typography variant='body2' sx={{ fontSize: "1.2rem" }} onClick={()=>navigator("/")}>Home</Typography>
                                 <Typography variant='body2' sx={{ fontSize: "1.2rem" }} onClick={()=>navigator("/wish")}>Shop</Typography>
                                 <Typography variant='body2' sx={{ fontSize: "1.2rem" }}>Product</Typography>
-                                <Typography variant='body2' sx={{ fontSize: "1.2rem" }} onClick={()=>navigator("/signin")}>Contact Us</Typography>
+                                <Typography variant='body2' sx={{ fontSize: "1.2rem" }} onClick={()=>navigator("/signin")}>Contact Kavya Okay..😎 </Typography>
 
                             </Box>
                         </Grid2>
